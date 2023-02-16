@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/answer"
+    android:id="@+id/rel"
+    >
+    <!--线性布局-->
+<LinearLayout
+    android:layout_width="310dp"
+    android:layout_height="340dp"
+    android:orientation="vertical"
+    android:layout_marginTop="290dp"
+    android:background="#191633"
+    android:layout_centerHorizontal="true"
+    >
+    <!--星座测试按钮-->
+    <Button
+        android:id="@+id/but_test"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="星座测试"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/border_color"
+       android:layout_gravity="center"
+
+        />
+    <!--今日运势按钮-->
+    <Button
+        android:id="@+id/jrys"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="星座运势"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/border_color"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+    <!--星座故事按钮-->
+    <Button
+        android:id="@+id/xzgs"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="星座故事"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/border_color"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+</LinearLayout>
+
+
+</RelativeLayout>

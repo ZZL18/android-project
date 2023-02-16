@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>2022年运势</item>
+        <item>2021年运势</item>
+        <item>2020年运势</item>
+        <item>2019年运势</item>
+    </string-array>
+</resources>

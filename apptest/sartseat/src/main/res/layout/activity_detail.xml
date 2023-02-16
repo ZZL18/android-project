@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sartseat.DetailActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bbj">
+    <!--线性布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--头像-->
+        <ImageView
+            android:id="@+id/imgId"
+            android:layout_margin="20dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/baiyang"/>
+<!--线性垂直布局-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--星座名称-->
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="白羊座"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <!--综合运势-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="综合运势：平稳"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+            <!--地区-->
+            <!--幸运颜色文本框-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="幸运颜色：浪漫紫"
+                    android:textColor="#000"
+                    android:textSize="16dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#000"
+        android:layout_marginTop="20dp"
+        />
+    <!--运势描述布局-->
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <!--运势描述-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--图标-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ax"
+                />
+            <!--文本框-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  运势描述:"
+                android:textColor="#000"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+        <!--描述文本框-->
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本周天蝎座的财运运势表现大致不错,在正财方面可以做到有所积累，在偏财方面则主要可以依靠一些小创意.获取额外财利。"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            ></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--相对布局-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#391E7D">
+    <!--标题-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="奇米星座"
+        android:textSize="25dp"
+        android:textColor="#fff"
+       android:background="#3F51B5"/>
+    <!--图片ImageView组件-->
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:layout_marginTop="-230dp"
+    android:src="@drawable/xp"
+   />
+    <!--线性布局表单-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dp"
+        android:layout_height="300dp"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:layout_marginBottom="80dp">
+        <!--姓名区域-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="姓名："
+        android:textColor="#412780"/>
+    <!--姓名输入框-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="请输入姓名"/>
+</LinearLayout>
+        <!--性别区域-->
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--性别文本框-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="性别："
+        android:textColor="#412780"/>
+    <!--性别单选按钮组-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <!--男单选按钮-->
+            <RadioButton
+                android:textColor="#412780"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="男"
+                />
+            <!--女单选按钮-->
+            <RadioButton
+                android:textColor="#412780"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="女"
+                />
+        </LinearLayout>
+    </RadioGroup>
+</LinearLayout>
+<!--星座区域-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--文本框-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="你的星座："
+                android:textColor="#412780"/>
+            <!--星座输入框-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="请输入你的星座"/>
+        </LinearLayout>
+        <!--出生地点区域-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--出生地点文本框-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="出生地点："
+                android:textColor="#412780"/>
+            <!--出生地点输入框-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="请输入出生地点"/>
+        </LinearLayout>
+        <!--查看按钮-->
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:background="@drawable/border_color"
+            android:text="立即查看星盘"
+           android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>中国标准</item>
+        <item>亚洲标准</item>
+        <item>国际标准</item>
+    </string-array>
+</resources>

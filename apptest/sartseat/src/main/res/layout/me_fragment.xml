@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#fff"
+    >
+    <!--标题文本框-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="奇米星座"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:background="#3F51B5"/>
+    <!--线性布局详细信息-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="20dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--头像区域布局-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+  android:layout_marginBottom="10dp"
+
+    >
+    <!--头像ImageView组件-->
+    <ImageView
+        android:id="@+id/tx"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/tianxie"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/border_yuan"/>
+
+</LinearLayout>
+        <!--文字描述区域-->
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        android:padding="25dp"
+            android:gravity="left"
+            >
+            <!--线性布局星座生日-->
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
+                <!--星座-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天蝎座       "
+
+                android:textSize="20dp"
+                />
+                <!--生日日期-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12.10-1.20"
+
+                    />
+             </LinearLayout>
+            <!--整体指数区域-->
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="整体指数       "
+
+                    android:textSize="16dp"/>
+                <!--星星ImageView组件-->
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/xx"/>
+                <!--星星ImageView组件-->
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/xx"/>
+                <!--星星ImageView组件-->
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/xx"/>
+                <!--星星ImageView组件-->
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/xx2"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="幸运颜色：浪漫紫"
+
+                    android:textSize="16dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <!--感情运势布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+android:layout_marginTop="20dp"
+      >
+<!--感情运势文本框-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="感情运势 "
+
+      />
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx"/>
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx"/>
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx"/>
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx2"/>
+
+<!--工作运势-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       工作运势 "
+
+            />
+<!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx"/>
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx"/>
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx2"/>
+        <!--星星ImageView-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xx2"/>
+
+     </LinearLayout>
+<!--财富运势布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+            >
+<!--财富运势文本框-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="财富运势 "
+
+                />
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx"/>
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx"/>
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx"/>
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx2"/>
+
+<!--健康指数文本框-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       健康指数 "
+
+                />
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx"/>
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx"/>
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx"/>
+            <!--星星ImageView-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/xx2"/>
+
+        </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.5dip"
+    android:background="#000"
+    android:layout_marginTop="20dp"
+    />
+        <!--运势描述布局-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <!--运势描述-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--图标-->
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ax"
+                    />
+                <!--文本框-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  运势描述:"
+
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+<!--描述文本框-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本周天蝎座的财运运势表现大致不错,在正财方面可以做到有所积累，在偏财方面则主要可以依靠一些小创意.获取额外财利。"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                ></TextView>
+
+        </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>
